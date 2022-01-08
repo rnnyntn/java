@@ -10,6 +10,7 @@
         <module>basics</module>
         <module>exceptions</module>
         <module>collections</module>
+        <module>principles</module>
     </modules>
     <!--By setting packaging to pom type, we're declaring that project will serve as a parent
     or an aggregator – it won't produce further artifacts.-->
@@ -39,7 +40,7 @@
 
     <properties>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <junit.version>5.1.0</junit.version>
     </properties>
 </project>
